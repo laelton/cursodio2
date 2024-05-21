@@ -1,0 +1,142 @@
+html, body {
+    margin: auto;
+    
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: left;
+    
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    
+}
+.menu {
+    width: 20%;
+    background-color:  rgba(110, 30, 30);
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+   
+}
+.content {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(200, 255, 255, 1) ;
+    padding: 10px 20px 0px;;
+}
+.footer {
+    background-color: rgb(50, 25, 30);
+    min-height: 150px;
+    padding: 20px; 
+    color: rgb(245, 245, 245); 
+      
+}
+
+li{
+    display: block;
+    padding: 1.3rem 0 ; 
+    font-size: 2vmin;
+    font-family: 'league gothic', helvetica, serif;
+    text-transform: uppercase;
+    opacity: .65;
+    transition: scale 550ms linear, opacity 250ms linear;
+    text-align: left;
+    width: 100%;
+    
+    
+}
+
+li:hover {
+    transform: scale(.95);
+    opacity: 1;
+   
+}
+li a:hover {
+    transform: scale(1);
+    opacity: 1;
+    color:  rgb(255, 255, 255);
+}
+a{
+    color: rgba(200, 255, 255, 1) ;
+    text-shadow: 200px 20px 50px black; 
+}
+h1, h2, h3 {
+    font-size: 2em;
+    color: #e8e8e8;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #a41818, #5100ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#descriçao {
+    font-size: 1.2em;
+    background: linear-gradient(to right, rgba(150, 20, 20), rgba(20, 20, 150));
+    max-width: 600px;
+    margin: 20px auto 0;
+    line-height: 2;
+    padding: 10px 20px;
+    background-color: grey;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgba(200, 255, 255, 1);
+}
+.services {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.service-item {
+    background: linear-gradient(to right, rgba(150, 20, 20), rgba(20, 20, 150));
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h4 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#txtcor{
+    color: rgba(200, 255, 255, 1);
+}
+
+#ipp{
+    width: 850px;
+    height: 550px;
+}
+
+#banner{
+   width: 100%;
+   height: 100%;
+}
